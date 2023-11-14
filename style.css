@@ -1,0 +1,535 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.c-scrollbar_thumb {
+  background-color: #ffe800;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: #222 !important;
+}
+.navbar-toggler {
+  border: none !important;
+  color: #e04343;
+}
+
+#seccion1 {
+  height: auto;
+  
+}
+.presentacion {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.titulo h1 {
+  font-size: 100px;
+  font-weight: bolder;
+}
+.titulo h3 {
+  width: 100%;
+  letter-spacing: 18px;
+  color: red;
+}
+.titulo p {
+  width: 100%;
+  font-size: 1.2em;
+}
+.logos {
+  width: 80px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.curriculum {
+  width: 100%;
+  margin-top: 20px;
+}
+#btnCurriculum {
+  border-radius: 0px;
+  padding: 10px;
+  box-shadow: 0px 10px 5px rgb(161, 169, 176);
+}
+.imgPresentacion {
+  height: 80vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.imgPresentacion img {
+  max-width: 103%;
+}
+
+/*SECCION2*/
+#seccion2 {
+  height: 50vh;
+}
+
+.sobremi {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e04343;
+}
+.texto_sobremi {
+  width: 50%;
+  height: auto;
+}
+.texto_sobremi h5 {
+  color: #ffffff;
+  letter-spacing: 4px;
+  background: url(./img/h1-bg.png) no-repeat center bottom;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.texto_sobremi p {
+  text-align: center;
+  color: #ffffff;
+}
+
+/*SECCION3*/
+#seccion3 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(161, 169, 176);
+
+}
+.habilidades {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.habilidades h5 {
+  color: #ffffff;
+  letter-spacing: 4px;
+  background: url(./img/h1-bg.png) no-repeat center bottom;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mySwiper {
+  width: 80%;
+  padding: 20px;
+ 
+ 
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+}
+#slide1 {
+  background-image: url(./img/html5.png);
+  background-size: cover;
+  background-position: center;
+}
+#slide2 {
+  background-image: url(./img/css.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#slide3 {
+  background-image: url(./img/js.png);
+  background-size: contain;
+  background-position: center;
+}
+#slide4 {
+  background-image: url(./img/php.png);
+  background-size: contain;
+  background-position: center;
+}
+#slide5 {
+  background-image: url(./img/mysql.png);
+  background-size: contain;
+  background-position: center;
+}
+#slide6 {
+  background-image: url(./img/bootstrap.png);
+  background-size: contain;
+  background-position: center;
+}
+#slide7 {
+  background-image: url(./img/npm-logo.png);
+  background-size: contain;
+  background-position: center;
+}
+#slide8 {
+  background-image: url(./img/vite.png);
+  background-size: contain;
+  background-position: center;
+}
+#slide9 {
+  background-image: url(./img/react.png);
+  background-size: cover;
+  background-position: center;
+}
+#slide10 {
+  background-image: url(./img/wordpress.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*SECCION4*/
+
+.tituloProyectos{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffefe;
+
+}
+.tituloProyectos h5 {
+  color: #000000;
+  letter-spacing: 4px;
+  background: url(./img/h1-bg.png) no-repeat center bottom;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#btnProyectos a:hover{
+  color:rgb(0, 0, 0) !important;
+}
+.proyectoPokemonFoto {
+  height: 40vh;
+  background-image: url(./img/pokemons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.proyectoPokemonFoto:hover{
+  height: 40vh;
+  background-image: url(./img/pokemonscaptura.png);
+  background-size: contain;
+  background-color: rgb(161, 169, 176);
+  background-position: center;
+
+}
+
+.proyectoPokemonTexto {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e04343;
+
+}
+
+/*SECCION5*/
+.proyectoSnakeTexto {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.proyectoSnakeFoto {
+  height: 40vh;
+  background-image: url(./img/snakeColor.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+
+}
+.proyectoSnakeFoto:hover {
+  height: 40vh;
+  background-image: url(./img/captura_snake.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(161, 169, 176);
+  
+
+}
+
+
+/*SECCION6*/
+
+.proyectoRickyFoto {
+  height: 40vh;
+  background-image: url(./img/el_tiempo.png);
+  background-size: cover;
+  background-position: center;
+ 
+}
+.proyectoRickyFoto:hover{
+  height: 40vh;
+  background-image: url(./img/el_tiempoCaptura.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(161, 169, 176);
+  
+  background-position: center;
+ 
+}
+
+
+.proyectoRickyTexto {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e04343;
+
+}
+
+/* texto proyectos*/
+.texto {
+  width: 90%;
+  height: 25vh;
+}
+#btnProyectos {
+  border-radius: 0px;
+  padding: 10px;
+  border: 2px solid white;
+}
+#btn2Proyectos {
+  border-radius: 0px;
+  padding: 10px;
+  border: 2px solid;
+}
+
+/*SECCTION7*/
+#seccion7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactoDiv {
+ 
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.contactoDiv h5 {
+  color: #222;
+  letter-spacing: 4px;
+  background: url(./img/h1-bg.png) no-repeat center bottom;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contactar {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.contacto {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(225, 226, 226);
+  box-shadow: 0px 20px 10px -5px rgb(91, 90, 90);
+  margin: 20px;
+  border-bottom: 5px solid #e04343;
+  transition: transform 0.3s;
+}
+.contacto:hover{
+  transform: translateY(-15px);
+  border-bottom: 5px solid #ffe800;
+}
+.icono {
+  font-size: 30px;
+}
+
+/*FOOTER*/
+
+
+footer{
+  width: 100%;
+  height: 10vh;
+  background-color: #e04343;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+letter-spacing: 4px;
+color: white;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .presentacion {
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .titulo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 20px;
+  }
+
+  .imgPresentacion {
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  
+  .imgPresentacion img {
+    max-width: 100%;
+  }
+
+/*SECCION2*/
+#seccion2 {
+  height: 50vh;
+}
+
+.sobremi {
+  height: auto;
+
+}
+.texto_sobremi {
+  width: auto;
+  height: auto;
+}
+
+/*seccionContacto*/
+.contactoDiv {
+ 
+  height: auto;
+  padding: 20px;
+ 
+}
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .presentacion {
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .titulo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 20px;
+  }
+
+  .imgPresentacion {
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  
+  .imgPresentacion img {
+    max-width: 100%;
+  }
+
+  .titulo h1 {
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  .titulo h3 {
+    width:100%;
+    letter-spacing: 15px;
+    color: red;
+  }
+
+/*seccion2*/
+
+#seccion2 {
+  height: auto;
+}
+
+.sobremi {
+  height: auto;
+  padding: 10px;
+}
+.texto_sobremi {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+/*seccion3*/
+
+#seccion3 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(161, 169, 176);
+
+}
+.habilidades {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+/*seccionContacto*/
+.contactoDiv {
+ 
+  height: auto;
+  padding: 20px;
+ 
+}
+
+
+}

@@ -1,15 +1,10 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+
 }
-.c-scrollbar_thumb {
-  background-color: #ffe800;
-}
-body {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+
+
+
 .navbar {
   background-color: #222 !important;
 }
@@ -17,25 +12,30 @@ body {
   border: none !important;
   color: #e04343;
 }
+#offcanvasNavbar{
+  background-color: rgb(233, 225, 225);
+}
 
 #seccion1 {
-  height: auto;
-  
+ margin-top: 50px;
+
 }
 .presentacion {
-  height: 80vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+
 }
 .titulo {
   width: 80%;
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+ 
 }
 .titulo h1 {
   font-size: 100px;
@@ -66,18 +66,16 @@ body {
   box-shadow: 0px 10px 5px rgb(161, 169, 176);
 }
 .imgPresentacion {
-  height: 80vh;
-  display: flex;
-  justify-content: end;
-  align-items: end;
+  height: 85vh;
+ background-image: url(./img/portada\ \(1\).jpg);
+ background-size: cover;
 }
 
-.imgPresentacion img {
-  max-width: 103%;
-}
+
 
 /*SECCION2*/
 #seccion2 {
+
   height: 50vh;
 }
 
@@ -107,16 +105,17 @@ body {
 
 /*SECCION3*/
 #seccion3 {
+
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(161, 169, 176);
+  background-color: rgb(206, 206, 206);
 
 }
 .habilidades {
   width: 100%;
-  height: 40vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,11 +132,12 @@ body {
 }
 
 .mySwiper {
-  width: 80%;
+  width:100%;
+  height: auto;
   padding: 20px;
- 
- 
+
 }
+
 
 .swiper-slide {
   width: 300px;
@@ -198,12 +198,18 @@ body {
 /*SECCION4*/
 
 .tituloProyectos{
-  height: 25vh;
+
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fffefe;
 
+}
+.texto{
+  width: 100%;
+  height: auto;
+  padding: 15px;
 }
 .tituloProyectos h5 {
   color: #000000;
@@ -213,11 +219,9 @@ body {
   font-weight: bold;
   text-align: center;
 }
-#btnProyectos a:hover{
-  color:rgb(0, 0, 0) !important;
-}
+
 .proyectoPokemonFoto {
-  height: 40vh;
+  height: 60vh;
   background-image: url(./img/pokemons.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -225,7 +229,7 @@ body {
 
 }
 .proyectoPokemonFoto:hover{
-  height: 40vh;
+  height: 60vh;
   background-image: url(./img/pokemonscaptura.png);
   background-size: contain;
   background-color: rgb(161, 169, 176);
@@ -234,7 +238,7 @@ body {
 }
 
 .proyectoPokemonTexto {
-  height: 40vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,15 +247,16 @@ body {
 }
 
 /*SECCION5*/
+
 .proyectoSnakeTexto {
-  height: 40vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 .proyectoSnakeFoto {
-  height: 40vh;
+  height: 60vh;
   background-image: url(./img/snakeColor.jpg);
   background-size: cover;
   background-position: center;
@@ -259,7 +264,7 @@ body {
 
 }
 .proyectoSnakeFoto:hover {
-  height: 40vh;
+  height: 60vh;
   background-image: url(./img/captura_snake.png);
   background-size: contain;
   background-position: center;
@@ -273,14 +278,14 @@ body {
 /*SECCION6*/
 
 .proyectoRickyFoto {
-  height: 40vh;
+  height: 60vh;
   background-image: url(./img/el_tiempo.png);
   background-size: cover;
   background-position: center;
  
 }
 .proyectoRickyFoto:hover{
-  height: 40vh;
+  height: 60vh;
   background-image: url(./img/el_tiempoCaptura.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -292,7 +297,7 @@ body {
 
 
 .proyectoRickyTexto {
-  height: 40vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,10 +306,7 @@ body {
 }
 
 /* texto proyectos*/
-.texto {
-  width: 90%;
-  height: 25vh;
-}
+
 #btnProyectos {
   border-radius: 0px;
   padding: 10px;
@@ -318,19 +320,22 @@ body {
 
 /*SECCTION7*/
 #seccion7{
+  height: auto  ;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
+  background-color: rgb(206, 206, 206);
 }
 
 .contactoDiv {
  
-  height: 60vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+
 }
 
 .contactoDiv h5 {
@@ -340,10 +345,11 @@ body {
   padding-bottom: 30px;
   font-weight: bold;
   text-align: center;
+
 }
 
 .contactar {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -357,14 +363,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(225, 226, 226);
+  background-color: rgb(254, 255, 255);
   box-shadow: 0px 20px 10px -5px rgb(91, 90, 90);
   margin: 20px;
   border-bottom: 5px solid #e04343;
   transition: transform 0.3s;
 }
 .contacto:hover{
-  transform: translateY(-15px);
+  transform: translateY(-10px);
   border-bottom: 5px solid #ffe800;
 }
 .icono {
@@ -377,13 +383,13 @@ body {
 footer{
   width: 100%;
   height: 10vh;
-  background-color: #e04343;
+  background-color: rgb(34, 34, 34);
 display: flex;
 justify-content: center;
 align-items: center;
 z-index: 1000;
 letter-spacing: 4px;
-color: white;
+color: #e04343;
 
 }
 
@@ -391,145 +397,135 @@ color: white;
 
 
 
+@media only screen and (max-width: 1024px) {
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
   .presentacion {
-    height:auto;
+    height: auto;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .titulo {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-    padding: 20px;
-  }
-
-  .imgPresentacion {
-    height: auto;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-  }
-  
-  .imgPresentacion img {
-    max-width: 100%;
-  }
-
-/*SECCION2*/
-#seccion2 {
-  height: 50vh;
-}
-
-.sobremi {
-  height: auto;
-
-}
-.texto_sobremi {
-  width: auto;
-  height: auto;
-}
-
-/*seccionContacto*/
-.contactoDiv {
- 
-  height: auto;
-  padding: 20px;
- 
-}
-
-}
-
-
-
-
-@media screen and (max-width: 767px) {
-  .presentacion {
-    height:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .titulo {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-    padding: 20px;
-  }
-
-  .imgPresentacion {
-    height: auto;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-  }
-  
-  .imgPresentacion img {
-    max-width: 100%;
+    align-items: start;
   }
 
   .titulo h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bolder;
   }
   .titulo h3 {
-    width:100%;
-    letter-spacing: 15px;
+    width: 100%;
+    letter-spacing: 12px;
     color: red;
   }
 
-/*seccion2*/
 
+
+  .imgPresentacion {
+    height: 40vh;
+   background-image: url(./img/portada\ \(1\).jpg);
+   background-size: cover;
+   background-position: center;
+  }
+  
+
+/*SECCION2*/
 #seccion2 {
   height: auto;
 }
 
 .sobremi {
   height: auto;
-  padding: 10px;
+  padding: 20px; 
 }
 .texto_sobremi {
-  width: auto;
-  height: auto;
-  padding: 10px;
-}
-/*seccion3*/
-
-#seccion3 {
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(161, 169, 176);
-
-}
-.habilidades {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+/*habilidades*/
+#seccion3 {
+
+  height: auto;
+ padding: 20px;
+
+}
+.swiper-slide {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+}
+/*proyectos*/
+
+
+.proyectoPokemonFoto {
+  height: 30vh;
+  background-image: url(./img/pokemons.jpg);
+ 
+}
+.proyectoPokemonFoto:hover{
+  height: 30vh;
+ 
+}
+
+.proyectoPokemonTexto {
+  height: auto;
   padding: 20px;
+}
+
+/*SECCION5*/
+
+.proyectoSnakeTexto {
+  height: auto;
+  padding: 20px;
+}
+
+
+.proyectoSnakeFoto {
+  height: 30vh;
+}
+.proyectoSnakeFoto:hover {
+  height: 30vh;
+
 
 }
 
-/*seccionContacto*/
-.contactoDiv {
+/*SECCION6*/
+
+.proyectoRickyFoto {
+  height: 30vh;
+
+}
+.proyectoRickyFoto:hover{
+  height: 30vh;
  
+ 
+}
+
+
+.proyectoRickyTexto {
   height: auto;
   padding: 20px;
  
 }
 
+/* texto proyectos*/
+
+#btnProyectos {
+  border-radius: 0px;
+  padding: 10px;
+  border: 2px solid white;
+}
+#btn2Proyectos {
+  border-radius: 0px;
+  padding: 10px;
+  border: 2px solid;
+}
+
+
 
 }
+
+
+

@@ -1,33 +1,29 @@
-// efecto scroll
 
-const scroll = new LocomotiveScroll({
-  el: document.querySelector("[data-scroll-container]"),
-  smooth: true,
-  smartphone: {
-    smooth: false,
-  },
-});
 
 //enlaces del menu
 function scrollToSection(sectionId) {
   const target = document.getElementById(sectionId);
 
   if (target) {
-    scroll.scrollTo(target);
+    target.scrollIntoView({ alignToTop: true });
   }
 }
 
 // animacion
-/* 
-anime({
-  targets: '.efectos',
-  translateY: 25,
-  direction: 'alternate',
-  loop: true,
-  easing: 'linear'
-});
- */
 
+ 
+ if (window.innerWidth > 950) {
+  anime({
+    targets: '#seccion1',
+    direction:'alternate',
+    scale: [
+      {value: .1, easing: 'easeOutSine', duration: 500},
+      {value: 1, easing: 'easeInOutQuad', duration: 1200}
+    ],
+    delay: anime.stagger(200, {grid: [14, 5], from: 'center'})
+  });
+} 
+  
 // carrusel habilidades
 
 let swiper = new Swiper(".mySwiper", {
